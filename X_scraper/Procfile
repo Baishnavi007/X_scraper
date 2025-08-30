@@ -1,1 +1,2 @@
-web: gunicorn X_scraper.wsgi
+web: gunicorn X_scraper.wsgi:application
+
